@@ -4,7 +4,6 @@ import { ToastContainer, toast, Bounce } from "react-toastify";
 import axios from "axios";
 
 const AppState = ({ children }) => {
-  // const url = "http://localhost:3000/api";
   const url = "https://noteapp-backend-tki3.onrender.com/api";
 
   const [allNotes, setAllNotes] = useState(null);
